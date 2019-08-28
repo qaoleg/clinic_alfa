@@ -7,38 +7,45 @@
         <title>index_html</title>
     </head>
     <body>
-        <h1>КЛІНІКА  АЛЬФА</h1>
-        <img src="img/snake.jpg" alt="snake" style="height:100px">
-        <h3>Ваше здоров'я - наша турбота</h3>
-        <p>Графік роботи: пн.-сб. 8:00-20:00</p>
-        <p>нед.-вихідний</p>
-        <p>050 55 111 35</p>
-        <p>067 55 111 35</p>
-        <p>Львів</p>
-        <p>вул.Здоров'я, 45</p>
-        <p>УКР-РУС-ENG</p>
+        <header>
+            <h1>КЛІНІКА  АЛЬФА</h1>
+            <img src="img/snake.jpg" alt="snake" style="height:100px">
+            <h3>Ваше здоров'я - наша турбота</h3>
+            <p>Графік роботи: пн.-сб. 8:00-20:00</p>
+            <p>нед.-вихідний</p>
+            <p>050 55 111 35</p>
+            <p>067 55 111 35</p>
+            <p>Львів</p>
+            <p>вул.Здоров'я, 45</p>
+            <p>УКР-РУС-ENG</p>
+            <hr>
+            <nav>
+                <a href="index.html">Головна</a>
+                <a href="doctors.html">Наші лікарі</a>
+                <a href="patients.html">Паціентам</a>
+                <a href="values.html">Ціни та послуги</a>
+                <a href="contacts.html">Контакти</a>
+            </nav>
+        </header>
         <hr>
-        <a href="index.html">Головна</a>
-        <a href="doctors.html">Наші лікарі</a>
-        <a href="patients.html">Паціентам</a>
-        <a href="values.html">Ціни та послуги</a>
-        <a href="contacts.html">Контакти</a>
-        <hr>
-        <img src="img/clinic_05.jpg" alt="clinic_05" style="height:250px">
-        <img src="img/doctors.jpg" alt="doctors" style="height:250px">
-        <img src="img/clinic_06.jpg" alt="clinic_06" style="height:250px">
-        <img src="img/clinic_07.jpg" alt="clinic_07" style="height:250px">
+        <div>
+            <img src="img/clinic_05.jpg" alt="clinic_05" style="height:250px">
+            <img src="img/doctors.jpg" alt="doctors" style="height:250px">
+            <img src="img/clinic_06.jpg" alt="clinic_06" style="height:250px">
+            <img src="img/clinic_07.jpg" alt="clinic_07" style="height:250px">
+        </div>
         <br>
-        <br>
-        <h3>Профіль клініки</h3>
-        <img src="img/gynecology.jpg" alt="gynecology" style="height:150px">
-             <p>Гінекологія</p>
-        <img src="img/stomatology.jpg" alt="stomatology" style="height:150px">
-             <p>Стоматологія</p>
-        <img src="img/dermatology.jpg" alt="dermatology" style="height:150px">
-              <p>Дерматологія</p>
-        <img src="img/dietology.png" alt="dietology" style="height:150px">
+        <div class="profile_clinic">
+            <h3>Профіль клініки</h3>
+            <img src="img/gynecology.jpg" alt="gynecology" style="height:150px">
+            <p>Гінекологія</p>
+            <img src="img/stomatology.jpg" alt="stomatology" style="height:150px">
+            <p>Стоматологія</p>
+            <img src="img/dermatology.jpg" alt="dermatology" style="height:150px">
+            <p>Дерматологія</p>
+            <img src="img/dietology.png" alt="dietology" style="height:150px">
             <p>Дієтологія</p>
+        </div>
         <h3>Про клініку</h3>
         <p>«Клініка Альфа» - медичний багатопрофільний центр для надання широкого спектру послуг на всіх етапах
         процесу лікування – від діагностики і лікуавння до реабілітації.</p>
@@ -57,23 +64,26 @@
         <img src="img/clinic_04.jpg" alt="clinic_04" style="height:250px">
         <h3>Інтер'єр клініки</h3>
         <p>Інтер'єр клініки спрямований на те, щоб перебування паціетна у клініці пройшло у спокійній атмосфері, "як у дома".</p>
-
         <hr>
-        <img src="img/snake.jpg" alt="snake" style="height:40px">
-        <h4>КЛІНІКА  АЛЬФА</h4>
-        <img src="img/facebook.png" alt="facebook" style="height:40px">
-        <img src="img/insta.jpg" alt="insta" style="height:40px">
-        <img src="img/twit.png" alt="twit" style="height:40px">
-        <img src="img/youtube.png" alt="youtube" style="height:40px">
-        <h4>Ваше здоров'я - наша турбота</h4>
-        <p>Графік роботи: пн.-сб. 8:00-20:00</p>
-        <p>нед.-вихідний</p>
-        <p>050 55 111 35</p>
-        <p>067 55 111 35</p>
-        <p>Львів</p>
-        <p>вул.Здоров'я, 45</p>
-        <hr>
-        <h4>
-            Клініка Альфа © 1995-2019<h4>
+        <article>
+            <div class="upper_footer">
+                <img src="img/snake.jpg" alt="snake" style="height:40px">
+                <h4>КЛІНІКА  АЛЬФА</h4>
+                <p>Графік роботи: пн.-сб. 8:00-20:00</p>
+                <p>нед.-вихідний</p>
+                <p>050 55 111 35</p>
+                <p>067 55 111 35</p>
+                <p>Львів</p>
+                <p>вул.Здоров'я, 45</p>
+                <img src="img/facebook.png" alt="facebook" style="height:40px">
+                <img src="img/insta.jpg" alt="insta" style="height:40px">
+                <img src="img/twit.png" alt="twit" style="height:40px">
+                <img src="img/youtube.png" alt="youtube" style="height:40px">
+            </div>
+            <hr>
+            <footer>
+                <p>Клініка Альфа © 1995-2019</p>
+            </footer>
+        </article>
     </body>
 </html>
