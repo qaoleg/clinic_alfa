@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans|Oswald&display=swap');
-
 :root {
-   --font-color: black;
-   font-family: 'Oswald', sans-serif;
+  --font-color: black;
+  font-family: 'Oswald', sans-serif;
 }
 
 * {
@@ -10,54 +9,51 @@
 }
 
 header h1 {
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 3rem;
-    margin: 1.5rem 0;
-    text-align: center;
-    /*text-transform: uppercase;
-    color: var(--accent-color);*/}
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 3rem;
+  margin: 1.5rem 0;
+  text-align: center;
+  /*text-transform: uppercase;
+    color: var(--accent-color);*/
+}
 
-header  {
+header {
   display: flex;
   justify-content: space-around;
-   }
+}
 
 header .graf {
- margin: 1rem 1rem;
+  margin: 1rem 1rem;
 }
 
 header .adres {
   margin: 1rem 1rem;
- }
+}
 
- header #snake {
+header #snake {
   margin: 2rem 0;
- }
+}
 
-  nav  {
-display: flex;
-justify-content: space-around;
- }
-
-  nav a {
-text-decoration: none;
-color: var(--font-color);
-text-transform: uppercase;
- }
-
- .profile_clinic div {
-   display: inline-flex;
- }
-
- .upper_footer  {
+nav {
   display: flex;
   justify-content: space-around;
-   }
- 
-   
+}
 
-   .icons_footer #faceb {
-   
-    margin: 2rem 2rem;
-     
-   }
+nav a {
+  text-decoration: none;
+  color: var(--font-color);
+  text-transform: uppercase;
+}
+
+.profile_clinic div {
+  display: inline-flex;
+}
+
+.upper_footer {
+  display: flex;
+  justify-content: space-around;
+  border-style: solid none;
+}
+.upper_footer img{
+  height:50px
+}
