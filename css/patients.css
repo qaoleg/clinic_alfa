@@ -2,19 +2,17 @@
     font-style: italic;
 }
 
-     label input, input  {
+label input, input {
     background-color: white;
     color: black;
-   }
-   
-   select, option, #phone,  #user_email {
+}
+
+select, option, #phone, #user_email {
     background-color: white;
     color: black;
-   }
+}
+
 #sub:hover {
     background-color: blue;
     color: white;
 }
-
-
-   

@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans|Oswald&display=swap'); 
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans|Oswald&display=swap');
 :root {
-  --font-color: black; font-family: 'Oswald', sans-serif; 
+  --font-color: black;
+  font-family: 'Oswald', sans-serif;
   background-color: #B9EDFD;
 }
 
@@ -19,7 +20,6 @@ header {
   align-items: stretch;
 }
 
-
 header #snake {
   margin: 2rem 0;
 }
@@ -34,14 +34,19 @@ nav a {
   color: var(--font-color);
   text-transform: uppercase;
 }
-nav a:hover {  
+
+nav a:hover {
   color: blue;
+}
+
+.foto-1 {
+  text-align: center;
 }
 
 .profile_clinic div {
   display: inline-block;
   margin: 4px 40px;
-  }
+}
 
 .upper_footer {
   display: flex;
@@ -59,7 +64,7 @@ footer, .hh3 {
 }
 
 #snake-footer {
-  margin: 3rem 2rem ;
+  margin: 3rem 2rem;
 }
 
 .price {
