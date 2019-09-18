@@ -43,7 +43,6 @@ nav a:hover {
   margin: 4px 40px;
   }
 
-
 .upper_footer {
   display: flex;
   justify-content: space-around;
@@ -55,7 +54,7 @@ nav a:hover {
   margin: 4px;
 }
 
-footer, header.hh3, #h2price {
+footer, .hh3 {
   text-align: center;
 }
 

@@ -1,0 +1,12 @@
+.doctors {
+    text-align: center;
+    column-count: 2;
+  }
+  
+  .doctors div {
+    display: inline-block;
+    margin: 10px 1px;
+  }
+  .doctors div p{
+      margin: 0px 1px;
+  }

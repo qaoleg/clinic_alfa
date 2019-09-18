@@ -1,136 +1,141 @@
 <!DOCTYPE html>
 <html lang="uk">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>patients_html</title>
-        <link rel="stylesheet" href="css/index.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>patients_html</title>
+    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/patients.css">
-    </head>
-    <body>
-        <header>
-            <div class="label">
-                <h1>КЛІНІКА АЛЬФА</h1>
-                <h3>Ваше здоров'я - наша турбота</h3>
-            </div>
-            <div class="graf">
-                <p>Графік роботи:</p>
-                <p>пн.-сб.</p>
-                <p> 8:00-20:00</p>
-                <p>нед.-вихідний</p>
-            </div>
-            <div class="adres">
-                <p>Львів</p>
-                <p> вул.Здоров'я, 45</p>
-                <p>050 55 111 35</p>
-                <p>067 55 111 35</p>
-            </div>
-            <img id="snake" src="img/snake.jpg" alt="snake" style="height:100px">
-        </header>       
-                      <nav>
-                          <a href="index.html">Головна</a>
-                          <a href="doctors.html">Наші лікарі</a>
-                          <a href="patients.html">Паціентам</a>
-                          <a href="values.html">Ціни та послуги</a>
-                          <a href="contacts.html">Контакти</a>
-                      </nav>
-        <hr>
-        <h3 id="latin">Bona valetudo melior est quam maximae divitiae</h3>
-        <h2>Заповніть форму для запису на прийом</h2>
-        <form method="POST" action="https://formspree.io/qaoleg@mailinator.com">
-            <label>
-                Прізвище: <input type="text" name="first_name" required>
-            </label>
-            <br>
-            <br>
-            <label>
-                Ім'я: <input type="text" name="last_name" required>
-            </label>
-            <br>
-            <br>
-            <label  for="phone">Телефон:</label>
-            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}[0-9]{2}[0-9]{2}[0-9]{3}" required>
-            <small>наприклад: 0505511135</small>
-            <br>
-            <br>
-            <label for="user_email">Електронна адреса: </label>
-            <input id="user_email" type="email" name="user_email" required>
-            <br>
-            <br>
-            <label>Стать:</label>
-            <label>
-                 Чол <input type="radio" name="gender" value="male" required>
-            </label>
-            <label>
-               Жін <input type="radio" name="gender" value="female" required>
-            </label>
-            <br>
-            <br>
-           <label>
-                Дата народження:<input type="date" name="date_of_birth" required>
-            </label>
-            <br>
-            <br>
-            <label>
-                Причина звернення: <input type="text" name="cause">
-            </label>
-            <p>Оберіть відділення</p>
-            <select name="department">
-                <option value="ginecology">Гінекологія</option>
-                <option value="dermatology">Дерматологія</option>
-                <option value="dietology">Дієтологія</option>
-                <option value="stomatology">Стоматологія</option>
-            </select>
-            <br>
-            <br>
-            <input id="sub" type="submit" value="Відправити">
-            <p>Відправляючи дану заявку ви погоджуєтесь з обробкою персональних даних.</p>
-            <p>Дякуємо за звернення. Очікуйте на дзвінок адміністратора та лист підтвердження на електронну скриньку.</p>
-        </form>
-        <h2>Способи оплати</h2>
-        <p>Готівкою. На рецепції по факту наданих послуг.</p>
-        <p>Безготівкова оплата - оплата по наданому рахунку в будь-якому відділені банку, пункті прийому платежів чи платіжному терміналі.</p>
-        <p>Переказ грошей на картку Приватбанку - оплата здійснюється шляхом переказу грошей на картку Приватбанку згідно наданих реквізитів.</p>
-        <p>Оплата банківською карткою.</p>
-        <img src="img/visa.png" alt="visa" style="height:120px">
-        <h2>Відгуки</h2>
-        <img src="img/patients_02.jpg" alt="patients_02" style="height:250px">
-        <p>На обліку перебувала дружина. Усе дуже зручно, всі аналізи одразу на місці, всі лікарі поруч.
-     Прийом відбувається по запису. Всюди чисто та охайно. Роман, Львів. </p>
-        <p>Клиника отличная! Советую всем, кому нужна помощь. Наташа, Ровно. </p>
-        <p>Розпочала лікування своїх зубів у цій клініці і не помилилася у виборі!
-          Затишна атмосфера , привітний персонал і кваліфіковані лікарі. Юля, Львів.</p>
+</head>
+
+<body>
+    <header>
+        <div class="label">
+            <h1>КЛІНІКА АЛЬФА</h1>
+            <h3>Ваше здоров'я - наша турбота</h3>
+        </div>
+        <div class="graf">
+            <p>Графік роботи:</p>
+            <p>пн.-сб.</p>
+            <p> 8:00-20:00</p>
+            <p>нед.-вихідний</p>
+        </div>
+        <div class="adres">
+            <p>Львів</p>
+            <p> вул.Здоров'я, 45</p>
+            <p>050 55 111 35</p>
+            <p>067 55 111 35</p>
+        </div>
+        <img id="snake" src="img/snake.jpg" alt="snake" style="height:100px">
+    </header>
+    <nav>
+        <a href="index.html">Головна</a>
+        <a href="doctors.html">Наші лікарі</a>
+        <a href="patients.html">Паціентам</a>
+        <a href="values.html">Ціни та послуги</a>
+        <a href="contacts.html">Контакти</a>
+    </nav>
+    <hr>
+    <h3 class="hh3" id="latin">Bona valetudo melior est quam maximae divitiae</h3>
+    <h2 class="hh3">Заповніть форму для запису на прийом</h2>
+    <form method="POST" action="https://formspree.io/qaoleg@mailinator.com">
+        <label>
+            Прізвище: <input type="text" name="first_name" required>
+        </label>
         <br>
-        
-        <article class="upper_footer">
-            <div class="label_footer">
-                <h4>КЛІНІКА АЛЬФА</h4>
+        <br>
+        <label>
+            Ім'я: <input type="text" name="last_name" required>
+        </label>
+        <br>
+        <br>
+        <label for="phone">Телефон:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}[0-9]{2}[0-9]{2}[0-9]{3}" required>
+        <small>наприклад: 0505511135</small>
+        <br>
+        <br>
+        <label for="user_email">Електронна адреса: </label>
+        <input id="user_email" type="email" name="user_email" required>
+        <br>
+        <br>
+        <label>Стать:</label>
+        <label>
+            Чол <input type="radio" name="gender" value="male" required>
+        </label>
+        <label>
+            Жін <input type="radio" name="gender" value="female" required>
+        </label>
+        <br>
+        <br>
+        <label>
+            Дата народження:<input type="date" name="date_of_birth" required>
+        </label>
+        <br>
+        <br>
+        <label>
+            Причина звернення: <input type="text" name="cause">
+        </label>
+        <p>Оберіть відділення</p>
+        <select name="department">
+            <option value="ginecology">Гінекологія</option>
+            <option value="dermatology">Дерматологія</option>
+            <option value="dietology">Дієтологія</option>
+            <option value="stomatology">Стоматологія</option>
+        </select>
+        <br>
+        <br>
+        <input id="sub" type="submit" value="Відправити">
+        <p>Відправляючи дану заявку ви погоджуєтесь з обробкою персональних даних.</p>
+        <p>Дякуємо за звернення. Очікуйте на дзвінок адміністратора та лист підтвердження на електронну скриньку.</p>
+    </form>
+    <h2 class="hh3">Способи оплати</h2>
+    <p>Готівкою. На рецепції по факту наданих послуг.</p>
+    <p>Безготівкова оплата - оплата по наданому рахунку в будь-якому відділені банку, пункті прийому платежів чи
+        платіжному терміналі.</p>
+    <p>Переказ грошей на картку Приватбанку - оплата здійснюється шляхом переказу грошей на картку Приватбанку згідно
+        наданих реквізитів.</p>
+    <p>Оплата банківською карткою.</p>
+    <img src="img/visa.png" alt="visa" style="height:120px">
+    <h2 class="hh3">Відгуки</h2>
+    <img src="img/patients_02.jpg" alt="patients_02" style="height:250px">
+    <p>На обліку перебувала дружина. Усе дуже зручно, всі аналізи одразу на місці, всі лікарі поруч.
+        Прийом відбувається по запису. Всюди чисто та охайно. Роман, Львів. </p>
+    <p>Клиника отличная! Советую всем, кому нужна помощь. Наташа, Ровно. </p>
+    <p>Розпочала лікування своїх зубів у цій клініці і не помилилася у виборі!
+        Затишна атмосфера , привітний персонал і кваліфіковані лікарі. Юля, Львів.</p>
+    <br>
+
+    <article class="upper_footer">
+        <div class="label_footer">
+            <h4>КЛІНІКА АЛЬФА</h4>
             <!--</div>
             <div class="icons_footer">-->
-                <img src="img/facebook.png" alt="facebook">
-                <img src="img/insta.jpg" alt="insta">
-                <img src="img/twit.png" alt="twit">
-                <img src="img/youtube.png" alt="youtube">
-              </div>
-    
-            <div class="graf">
-                <p>Графік роботи:</p>
-                <p>пн.-сб.</p>
-                <p> 8:00-20:00</p>
-                <p>нед.-вихідний</p>
-            </div>
-            <div class="adres">
-                <p>Львів</p>
-                <p> вул.Здоров'я, 45</p>
-                <p>050 55 111 35</p>
-                <p>067 55 111 35</p>
-            </div>
-            <img id="snake-footer" src="img/snake.jpg" alt="snake" style="height:80px">
-           
-        </article>
-        <footer>
-            <p>Клініка Альфа © 1995-2019</p>
-        </footer>
-    </body>
+            <img src="img/facebook.png" alt="facebook">
+            <img src="img/insta.jpg" alt="insta">
+            <img src="img/twit.png" alt="twit">
+            <img src="img/youtube.png" alt="youtube">
+        </div>
+
+        <div class="graf">
+            <p>Графік роботи:</p>
+            <p>пн.-сб.</p>
+            <p> 8:00-20:00</p>
+            <p>нед.-вихідний</p>
+        </div>
+        <div class="adres">
+            <p>Львів</p>
+            <p> вул.Здоров'я, 45</p>
+            <p>050 55 111 35</p>
+            <p>067 55 111 35</p>
+        </div>
+        <img id="snake-footer" src="img/snake.jpg" alt="snake" style="height:80px">
+
+    </article>
+    <footer>
+        <p>Клініка Альфа © 1995-2019</p>
+    </footer>
+</body>
+
 </html>
