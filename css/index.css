@@ -52,6 +52,11 @@ nav a:hover {
   display: flex;
   justify-content: space-around;
   border-style: solid none;
+  
+}
+
+.upper_footer .graf p, .upper_footer .adres p {
+    margin: 6px 0px;
 }
 
 .upper_footer img {
@@ -64,10 +69,14 @@ footer, .hh3 {
 }
 
 #snake-footer {
-  margin: 3rem 2rem;
+  margin: 1.5rem 1rem;
 }
 
 .price {
   text-align: center;
   column-count: 2;
+}
+
+footer p {
+  margin: 5px 0px;
 }
